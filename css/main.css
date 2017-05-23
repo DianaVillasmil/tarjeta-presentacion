@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.contenido {
+	position: absolute;
+	width: 700px;
+	height: 400px;
+	left: 50%;
+	top: 50%;
+	margin-left: -350px;
+	margin-top: -200px; 
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+#gray {
+	position: absolute;
+	width: 700px;
+	height: 700px;
+	left: 300px;
+	top: 0;
+	background-color: #3c3c3b;
+	transform: rotate(30deg);
+
+}
+
+#logo {
+	position: absolute;
+	width: 200px;
+	left: 25%;
+}
+
+#isotipo {
+	position: absolute;
+	width: 80px;
+	right: 0;
+	bottom: 0;
+}
+
+#nombre {
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-size: 30px;
+	position: absolute;
+	top: 77px;
+	left: 452px;
+}
+
+#apellido {
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-size: 30px;
+	position: absolute;
+	top: 111px;
+	left: 455px;
+}
+
+#cargo {
+	color: #f7b617;
+	font-family: Tahoma, sans-serif;
+	font-size: 15px;
+	position: absolute;
+	top: 160px;
+	left: 474px;
+}
+
+#phone {
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-size: 15px;
+	position: absolute;
+	top: 255px;
+	left: 396px;
+}
+
+#email {
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-size: 15px;
+	position: absolute;
+	top: 235px;
+	left: 396px;
+}
+
+#address {
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-size: 15px;
+	position: absolute;
+	top: 216px;
+	left: 396px;
+}
+
+
+
